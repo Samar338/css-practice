@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>country</title>
+    <style>
+        body{
+            background-color: white;
+            background-image: url(imaga/france.jpg);
+            /* opacity: 0.8; */
+        }
+        .country{
+            width: 80%;
+            height: 100vh;
+            /* opacity: 0.5; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .content{
+            opacity: 0.5;
+            width: 300px;
+            height: 400px;
+        }
+        .content img{
+            width: 100%;
+            height: 100%;
+
+        }
+        .content .content-text{
+            position: relative;
+            top: 0px;
+            left: 0;
+            text-transform: capitalize;
+        }
+        .content .content-text p{
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            color: white;
+            font-weight: 500;
+
+        }
+        .content .content-text h2{
+            position: absolute;
+            top: 25px;
+            left: 5px;
+            color: white;
+        } 
+       
+        .content:hover {
+            scale: 1.1;
+            opacity: 1;
+        }
+        .content:hover body{
+            opacity: 1;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="country">
+        <div class="content content--1">
+            <div class="content-text">
+                <p>travel</p>
+                <h2>United States</h2>
+            </div>
+            <img class="img--1" src="imaga/usa.jpg" alt="">
+        </div>
+
+        <div class="content content--2">
+            <div class="content-text">
+                <p>travel</p>
+                <h2>Canada</h2>
+            </div>
+            
+            <img class="img--2"  src="imaga/canada.jpg" alt="">
+
+        </div>
+        <div class="content content--3">
+            <div class="content-text">
+                <p>travel</p>
+                <h2>Japan</h2>
+            </div>
+
+            <img src="imaga/japan.jpg" alt="">
+        </div>
+        <div class="content content--3">
+            <div class="content-text">
+                <p>travel</p>
+                <h2>Germany</h2>
+            </div>
+            <img src="imaga/germany.jpg" alt="">
+            
+        </div>
+        <div class="content content--4">
+            <div class="content-text">
+                <p>travel</p>
+                <h2>France</h2>
+            </div>
+            <img src="imaga/france.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+</html>
